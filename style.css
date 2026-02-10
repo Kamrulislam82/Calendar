@@ -5,7 +5,9 @@
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 35px repeat(6, 50px);
     row-gap: 20px;
-    column-gap: 10px; 
+    column-gap: 10px;
+  
+    
 }
 
 .date, .day{
@@ -14,10 +16,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;   
+    font-size: 1.5em;
+    box-shadow: 10px 15px 30px rgba(223, 219, 35, 0.733);
+    
+    
 }
 
 .day{
     background-color: rgb(91, 108, 124);
     color: white;
+    
 }
